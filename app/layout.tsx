@@ -1,4 +1,4 @@
-import QueryWrapper from './QueryWrapper'
+import { QueryWrapper } from './components/Wrappers'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
