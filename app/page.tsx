@@ -6,11 +6,10 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 // compoenents
 import { Container, Grid } from '@mui/material'
 import { Item } from './components/Item/Item'
-import { GroceryModal } from './components/GroceryModal'
 
 // types
 import { GroceryType } from './types'
-import { Button, Loader } from './components'
+import { Button, Loader, GroceryModal } from './components'
 import { deleteGroceryQuery, getGroceriesQuery, markGroceryQuery } from './services/queries'
 
 
