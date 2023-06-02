@@ -3,4 +3,5 @@ export interface GroceryType {
     title: string;
     price: string;
     amount: number;
+    isChecked: boolean
 }
