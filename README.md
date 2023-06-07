@@ -1,8 +1,25 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Run backend locally
+
+First install `json-server`
+
+```bash
+npm install -g json-server
+
+```
+
+# after
+
+```bash
+json-server --watch db.json --port 3001
+```
+
 ## Getting Started
 
-First, run the development server:
+Before, running the development server add `env.local`
+
+Then, run the development server:
 
 ```bash
 npm run dev
