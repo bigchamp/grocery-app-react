@@ -15,6 +15,21 @@ after
 json-server --watch db.json --port 3001
 ```
 
+structure of DB.json
+
+```bash
+{
+    "groceries": [
+        {
+            "amount": 1,
+            "title": "Orange",
+            "isChecked": false,
+            "id": 1
+        },
+    ]
+}
+```
+
 ## Getting Started
 
 Before, running the development server add `env.local`
