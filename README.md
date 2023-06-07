@@ -9,7 +9,7 @@ npm install -g json-server
 
 ```
 
-# after
+after
 
 ```bash
 json-server --watch db.json --port 3001
